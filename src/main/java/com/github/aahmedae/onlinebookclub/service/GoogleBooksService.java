@@ -46,7 +46,7 @@ public class GoogleBooksService
     */
 
     // Search for the given book based on title
-    public @Nullable List<BookResponse> searchForBooks(String title)
+    public List<BookResponse> searchForBooks(String title)
     {
         List<BookResponse> books = new ArrayList<>();
 
@@ -86,7 +86,7 @@ public class GoogleBooksService
     }
 
     // Parses the bookJSON object into a book response object
-    private @Nullable BookResponse parseBookJSON(JSONObject json)
+    private BookResponse parseBookJSON(JSONObject json)
     {
         BookResponse book = new BookResponse();
 
