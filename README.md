@@ -83,7 +83,7 @@ Currently the public endpoint for searching for books using Google Books API wor
    </tr>
 </table>
 
-__Try it out: [Search for book by title 'Wuthering Heights'](https://online-book-club.herokuapp.com/api/v1/book/public/search?title=Wuthering+Heights) 
+__Try it out: [Search for book by title 'Wuthering Heights'](https://online-book-club.herokuapp.com/api/v1/book/public/search?title=Wuthering+Heights)__ 
 
 __[Features Under Development]:__
 
